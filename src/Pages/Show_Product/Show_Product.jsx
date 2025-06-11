@@ -45,7 +45,7 @@ export default function Show_Product() {
 
     <hr />
 
-    <div className=" d-flex flex-column gap-2">
+    <div className=" w-100">
       {
         checkIsLogIn == true ?
           atomUsingThisAccount.userCart.length > 0 ?
@@ -54,8 +54,6 @@ export default function Show_Product() {
           : <Add_To_Cart checkIsLogIn={checkIsLogIn} />
       }
 
-
-      {/* fav button */}
     </div>
 
     <StyledWrapper>

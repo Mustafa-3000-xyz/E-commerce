@@ -43,7 +43,7 @@ export default function Add_To_Cart({ checkIsLogIn }) {
 
 
 
-    return <button onClick={handle_Btn} disabled={checkIsLogIn == true ? false : true} className=" border-0 p-2 w-25 px-4 fw-medium fs-4 rounded-2">
+    return <button onClick={handle_Btn} disabled={checkIsLogIn == true ? false : true} className=" border-0 p-2 w-25 px-4 fw-medium fs-4 rounded-2 w-75">
         Add To Cart
     </button>
 }
