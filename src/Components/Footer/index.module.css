@@ -1,0 +1,17 @@
+.img_box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img_box img {
+    width: 150px;
+    height: 60px;
+}
+
+
+
+@media screen and (max-width:888px) {
+    .about_fox_shop {
+        width: 100%;
+    }
+}
